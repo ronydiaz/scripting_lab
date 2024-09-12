@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 
-the_list = [1, 4, 4, 4, 9, 6, 7]
-inverted_list = []
+the_list = [1, 4, 5, 13, 9, 54, 7]
 
-for element in range(len(the_list)):
-    inverted_list.append(the_list[len(the_list) -1 -element])
+print(the_list)
+for element in range(len(the_list)//2):
+    the_list[element], the_list[-element-1] = the_list[-element-1], the_list[element]
 
-print(f"Original list {the_list}")
-print(f"Inverted list {inverted_list}")
+print(the_list)
+
+
+
+
