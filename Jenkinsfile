@@ -1,4 +1,5 @@
 pipeline{
+	
 	agent any
 	
 	stages{
@@ -7,6 +8,12 @@ pipeline{
 				echo 'build the application'
 			}
 		}	
+		stage("test"){
+			steps{
+				echo 'testing application'
+			}
+		}
+		
 
 	}	
 }
