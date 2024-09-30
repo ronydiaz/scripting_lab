@@ -1,0 +1,11 @@
+Install either docker or podman on your laptop: podman installation (mac and windows): https://podman.io/docs/installation
+
+Pull the Oracle Linux 8 container image from Oracle Container Registry: < docker | podman > pull container-registry.oracle.com/os/oraclelinux:8
+
+Run the Oracle Linux container image: < docker | podman > run -dt container-registry.oracle.com/os/oraclelinux:8
+
+Run a bash shell in the running Oracle Linux 8.0 container: < docker | podman > exec -it <containerid> /bin/bash
+
+Test egress network connectivity outside of the container by installing a package from the Oracle YUM repo: microdnf install vim -y
+
+Run vim to begin the interview.
