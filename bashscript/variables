@@ -1,0 +1,16 @@
+#!/bin/bash
+
+variable="nombre"
+variable_args=$1
+echo "My $variable is $variable_args"
+
+read -p "Installing process (y/n) " input
+read -p "Introduce three values " val1 val2 val3
+
+if [[ "$input" == y ]]; then
+	echo "Installing software"
+else
+	echo "Installation fail"
+fi
+
+echo "val1=$val1, val2=$val2 val3=$val3"
