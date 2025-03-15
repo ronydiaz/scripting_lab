@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
-the_list = [34, 2, 4, 25, 9, 6, 7]
-temp_var=0
+import random
+
+the_list = [random.randint(2,100) for i in range(10)]
 print(the_list)
 
 for list_check in range(len(the_list)-1):
