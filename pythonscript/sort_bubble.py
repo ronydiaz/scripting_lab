@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+'''
+Classic program for sorting using bubble sort algorithm
+'''
+
 import random
 
 the_list = [random.randint(2,100) for i in range(10)]
