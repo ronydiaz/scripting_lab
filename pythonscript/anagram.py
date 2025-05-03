@@ -1,3 +1,9 @@
+#!/usr/bin/python3
+
+'''
+This program takes two words to check if they are anagram between them
+'''
+
 word1='Listen'
 word2='SilenT'
 
