@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+'''
+This program get a string as input for identifying and count the total of digits on the word
+'''
+
 user="01_Ronaldo245"
 
 def count_digit(the_string):
@@ -11,7 +15,7 @@ def count_digit(the_string):
 
     return digit_counter
 
-print(count_digit(user))
+print(f"The word is {user} and contain {count_digit(user)} digits")
 
 
 
