@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+import random
+
+random_list=[random.randint(1,10) for x in range(10)]
+sorted_list=sorted(random_list)
+
+print(sorted_list)
+
+
+def remove_duplicated_numbers(nums: list[int]) -> int:
+	
+	nums[:]= sorted(list(set(nums)))
+	return len(nums)
+
+remove_duplicated_numbers(sorted_list)
