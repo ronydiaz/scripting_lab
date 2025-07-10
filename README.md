@@ -81,5 +81,5 @@ docker-compose -f docker/compose/app.yaml up
 ```
 
 
-##NOTES
+## NOTES
 This sandbox is constantly updated as I continue to grow in scripting and DevOps. Feel free to fork or contribute ideas!
