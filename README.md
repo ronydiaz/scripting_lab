@@ -53,27 +53,32 @@ Clone the repo and explore each directory. Most scripts include usage comments o
 ```bash
 git clone https://github.com/your-username/bash-python-sandbox.git
 cd bash-python-sandbox
+```
 
 - Run Bash scripts:
 ```bash
 bash bash/automation-scripts/backup.sh
+```
 
 - Run Python scripts:
 ```bash
 python3 python/scripting/json_parser.py
+```
 
 - Build and run C code:
 ```bash
 gcc c/basics/hello.c -o hello && ./hello
+```
 
 - Deploy k8s manifes:
 ```bash
 kubectl apply -f kubernetes/deployments/myapp.yaml
+```
 
 - Run Docker Compose:
 ```bash
 docker-compose -f docker/compose/app.yaml up
-
+```
 
 
 ##NOTES
