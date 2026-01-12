@@ -10,11 +10,11 @@ with open('words.txt','r') as file:
 flag = True
 
 word = choice(data)
-word = word.lower()
+word =  word.lower()
 word_copy = "_ " * len(word)
 print(f"Your word is: {word_copy}")
 
-live_counter = len(word)
+life_counter = len(word)
 
 while(flag and live_counter > 0):
     
