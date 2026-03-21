@@ -11,7 +11,7 @@ flag = True
 
 word = choice(data)
 word =  word.lower().replace('\n','')
-word_copy = "_" * (len(word) - 1)
+word_copy = "_" * (len(word))
 print(f"Your word is: {word_copy}")
 
 life_counter = len(word)
@@ -39,7 +39,7 @@ while(flag and life_counter > 0):
 
 
     if life_counter == 0:
-        print("You lost, the word is {word}")
+        print(f"You lost, the word is {word}")
 
     else:
         print(f"Missing Lifes: {life_counter}")
